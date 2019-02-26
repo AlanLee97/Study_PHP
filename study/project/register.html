@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册页面</title>
+</head>
+<style>
+.box{
+	background:#ffff99;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:auto;
+	border-radius:15px;
+	padding:10%;
+	position:relative;
+}
+
+.center{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content{
+	background:rgba(227,227,227,0.30);;
+	padding:10px;
+	width:80%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+    border-radius:10px;
+	position:relative;
+}
+
+</style>
+<body>
+<div class="box">
+	<div class="content">
+		<h2 class="center">注册</h2>
+		<form action="ex22_register.php" method="post"><br/><br/>
+			用户名：<input type="text" name="username"/><br/><br/>
+			密码：<input type="password" name="password"/><br/><br/>
+			重复密码：<input type="password" name="repassword"/><br/><br/>
+			<div class="center"><input type="submit" value="提交" /></div>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
